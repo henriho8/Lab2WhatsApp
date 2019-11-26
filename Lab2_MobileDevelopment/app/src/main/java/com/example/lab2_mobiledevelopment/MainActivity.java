@@ -23,8 +23,14 @@ public class MainActivity extends AppCompatActivity {
 //        }
     }
 
-    public void maps(View view) {
-        Intent redirect = new Intent(MainActivity.this,MapsActivity.class);
+//    public void maps(View view) {
+//        Intent redirect = new Intent(MainActivity.this,MapsActivity.class);
+//        startActivity(redirect);
+//    }
+
+    public void contacts(View view) {
+        Intent redirect = new Intent(MainActivity.this,ContactsActivity.class);
         startActivity(redirect);
     }
+
 }

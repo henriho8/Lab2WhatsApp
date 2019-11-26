@@ -18,11 +18,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+<!--        <Button-->
+<!--            android:id="@+id/btnMaps"-->
+<!--            android:onClick="maps"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Maps" />-->
+
         <Button
-            android:id="@+id/btnMaps"
-            android:onClick="maps"
+            android:id="@+id/btnContacts"
+            android:onClick="contacts"
             android:background="@color/colorPrimary"
-            android:text="Maps" />
+            android:text="Contacts"/>
 
 
     </GridLayout>
